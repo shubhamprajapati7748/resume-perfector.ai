@@ -3,3 +3,4 @@ google-generativeai
 python-dotenv
 pdf2image
 fpdf
+PyPDF2
