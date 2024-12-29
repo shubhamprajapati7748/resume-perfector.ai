@@ -57,7 +57,7 @@ with st.expander("Resume Analysis Options"):
     submit3 = st.button("Resume Percentage Match")
     submit4 = st.button("ATS Compatibility Check")
     submit5 = st.button("Resume Feedback")
-    submit6 = st.button("Optimize My Resume")
+    submit6 = st.button("Generate Optimized Resume")
     submit7 = st.button("Generate Cover Letter")
 
 # Function to generate the response based on button clicked
