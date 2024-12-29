@@ -90,7 +90,7 @@ def generate_pdf(prompt):
         
         if optimized_filename:
             with open(optimized_filename, "rb") as file:
-                st.download_button("Click to Download Optimized Resume", file, file_name=optimized_filename)
+                st.download_button("Click Here to Download Generated File", file, file_name=optimized_filename)
         else: 
             st.error("There was an issue generating the optimized resume.")
     else:
